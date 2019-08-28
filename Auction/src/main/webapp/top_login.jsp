@@ -51,7 +51,7 @@
 	      </li>
 	      <li>
 		      <a class="drop_link" href="#">총 보유금액
-			      <span class="money">100000원</span>
+			      <span class="money">10000원</span>
 			  </a>
 		  </li>
 	      <li>
