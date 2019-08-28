@@ -23,7 +23,7 @@
 					<td><input type="text" name="content"><br></td>
 				</tr>
 				<tr align="center"> 
-					<th>제목 </th>
+					<th> 제목  </th>
 					<td><input type="text" name="title"><br></td>
 				</tr>
 				<tr align="center"> 
