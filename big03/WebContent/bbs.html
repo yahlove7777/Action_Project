@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>게시판 입니다</title>
+	</head>
+	<body>
+		<img alt="" src="naver.PNG">
+		<form action="bbs.jsp">
+			게시판제목 : <input type="text" name="title" placeholder="아이디는 5글자 이상"><br>
+			게시판내용 : <input type="text" name="content"><br>
+			글쓴이 : <input type="text" name="name"><br>
+			비밀번호 : <input type="text" name="pw"><br>
+			좋아하는 음식 : <select name = "food">
+				<option value="jajang">짜장면</option>
+				<option value="udong">우동</option>
+				<option value="jLamen" selected="selected">라면</option>
+				<option value="햄버거">햄버거</option>
+			</select><br>
+			성별 : <input type="radio"  name = "gender" value="man">남자
+				 <input type="radio"  name = "gender" value="gril">여자<br>
+			취미 : <input type="checkbox" name="hobby" value="run">달리기
+				 <input type="checkbox" name="hobby" value="book">독서
+				 <input type="checkbox" name="hobby" value="hiking">등산<br>
+			<textarea rows="10" cols="20" placeholder="하고 싶은 말"></textarea>
+			<input type="submit" value="서버로 전송">
+	</body>
+</html>
