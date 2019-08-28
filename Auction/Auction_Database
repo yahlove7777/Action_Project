@@ -1,0 +1,10 @@
+create table test (
+	id varchar(10),
+	write varchar(10),
+	content varchar(10),
+	title varchar(10)
+)
+
+select * from test;
+
+delete from test;
