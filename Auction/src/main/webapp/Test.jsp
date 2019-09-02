@@ -9,7 +9,7 @@
 	<body>
 		<h1>회원가입</h1>
 		<hr color="red">
-		<form action="insert.do">
+		<form action="test.do">
 			<table border="1">
 				<tr align="center"> 
 					<th>아 이 디 </th>

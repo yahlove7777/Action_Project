@@ -1,4 +1,4 @@
-package com.auction.project;
+package com.auction.project.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

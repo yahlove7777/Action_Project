@@ -5,7 +5,11 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>login</title>
+		<!-- css -->
 		<link href="resources/css/login.css" rel="stylesheet" type="text/css" />
+	
+		<!-- js -->
+		<script type="text/javascript" src="resources/js/login.js"></script>
 	</head>
 	<body>
 		<jsp:include page="top.jsp" flush="false"></jsp:include>
@@ -30,10 +34,15 @@
 			<div class="login_float">
 				<button type="submit" onclick="doLogin();">로그인</button>
 			</div>
+			
 			<!-- 아이디 / 비밀번호  찾기 -->
 			<div>
 			
 			</div>
+		</div>
+		<!-- 회원가입 -->
+		<div>
+			<button type="submit" onclick="doJoin();">회원가입</button>
 		</div>
 	</div>
 		
