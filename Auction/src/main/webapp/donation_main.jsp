@@ -9,12 +9,14 @@
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 		<link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
 		<link href="resources/css/style.css" rel="stylesheet" type="text/css" />
-		<link href="resources/css/top_login.css" rel="stylesheet" type="text/css" />
+		<link href="resources/css/donation_main.css" rel="stylesheet" type="text/css" />
 		<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
 		<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     	<script type="text/javascript" src="resources/js/main.js" charset="UTF-8"></script>
+    	<script type="text/javascript" src="resources/js/progressbar.js" charset="UTF-8"></script>
 	</head>
 	<body>
+		<!-- 로그인후에 상단바 -->
 		<jsp:include page="top_login.jsp" flush="false"></jsp:include>
 		
 		<!-- 기부관련 슬라이드  -->
@@ -27,92 +29,121 @@
 				<div> <img src="resources/img/test4.jpg" alt="그림2" style="width: 1920px;height: 635px;"> </div>
 			</div>
 		</div>
-		<!-- --------------경매body부분---------------->
-		<div class="items">
-			<ul class="itemul">
-				<li class="itemBar"><h2 class="sajo">사조 추천경매</h2></li>
-				<li class="totalview"><a href="#"><img src="resources/img/totalview.PNG"></a></li>
-			</ul>
+		<!-- --------------기부body부분---------------->
+		<hr style="color: black; size: 100px;">
+		<div class="donation_card_body">
+			<div class="donation_card">
+				<ul>
+					<!-- 기부카드 첫번째줄 -->
+					<li class="all_donation">
+					<!-- 간단한 총 기부참여자 및 기부금액  -->
+						<a href="#" class="all_donation_card">
+							<span class="donation_label">기부</span>
+							<strong class="all_donation_title">
+							당신의 참여가
+							<br> 
+							변화의 시작입니다.</strong>
+							<span class="donation_more">
+							더보기
+							</span>
+							<!-- 참여인원 및 총기부금액표시 -->
+							<dl class="donation_now">
+								<dt class="dt_title">
+									<i class="people">참여</i>
+								</dt>
+								<dd class="dd_content">
+									<span class="point">1,234,111</span>명
+								</dd>
+								
+								<dt class="dt_title">
+									<i class="people">기부금액</i>
+								</dt>
+								<dd class="dd_content">
+									<span class="point">111,112,341</span>원
+								</dd>
+							</dl>
+						</a>
+					</li>
+					<!-- 기부항목 -->
+					<li class="card_contents">
+						<div class="card_header">
+							<img src="resources/img/donation.jpg">
+							<h1 class="card_title">시골 작은 영화관</h1>
+							<p>이랜드하당재가센터</p>
+							<div id="myProgress">
+								<div id="myBar">
+								</div>
+							</div>
+							<strong class="donation_percent">25%</strong>
+							<strong class="donation_money">
+								100,000
+								<span class="text">원</span>
+							</strong>
+								<!-- 아래버튼은 기부상세페이지에 넣을 예정 -->
+								<!-- <button onclick="move()">기부하기</button> -->
+						</div>
+					</li>
+					<li class="card_contents">
+						<div class="card_header">
+							<img src="resources/img/donation1.jpg">
+							<h1 class="card_title">시골 작은 영화관</h1>
+							<p>이랜드하당재가센터</p>
+							<div id="myProgress">
+								<div id="myBar">
+								</div>
+							</div>
+							<strong class="donation_percent">25%</strong>
+							<strong class="donation_money">
+								100,000
+								<span class="text">원</span>
+							</strong>
+						</div>
+					</li>
+					<li class="card_contents">
+						<div class="card_header">
+							<img src="resources/img/donation2.png">
+							<h1 class="card_title">시골 작은 영화관</h1>
+							<p>이랜드하당재가센터</p>
+							<div id="myProgress">
+								<div id="myBar">
+								</div>
+							</div>
+							<strong class="donation_percent">25%</strong>
+							<strong class="donation_money">
+								100,000
+								<span class="text">원</span>
+							</strong>
+						</div>
+					</li>
+					<li class="card_contents">
+						<div class="card_header">
+							<img src="resources/img/donation3.jpg">
+							<h1 class="card_title">시골 작은 영화관</h1>
+							<p>이랜드하당재가센터</p>
+							<div id="myProgress">
+								<div id="myBar">
+								</div>
+							</div>
+							<strong class="donation_percent">25%</strong>
+							<strong class="donation_money">
+								100,000
+								<span class="text">원</span>
+							</strong>
+						</div>
+					</li>
+					<!-- 기부카드 두번째줄 -->
+					<li class="all_donation">
+						기부 내용들(리스트 넣기)
+					</li>
+					<li class="card_contents">기부 내용들(리스트 넣기)</li>
+					<li class="card_contents">기부 내용들(리스트 넣기)</li>
+					<li class="card_contents">기부 내용들(리스트 넣기)</li>
+					<li class="card_contents">기부 내용들(리스트 넣기)</li>
+				</ul>
+			</div>
 		</div>
-		<hr width="80%">
 		
-		<div class="itembox">
-		<%
-			/* List<DTO> attDto = new List();
-			arrDto = DAO.getProductList(); */
-			for(int i =0; i<10; i++){
-		%>
-		<div class="box">
-			<table border="1">
-				<tr>
-					<td>
-						<i> <a href="#"><img alt="" src="resources/img/cola.jpg"></a></i>
-					</td>
-				</tr>
-				<tr>
-					<td>${arrDto.title}</td>
-	            </tr>
-	            <tr>
-	               <td>50000원</td>
-	            </tr>
-	            <tr>
-	            	<td><span>입찰 <i>0</i></span> <span>조회<i>57</i></span></td>
-	            </tr>
-	            <tr>
-	            	<td></td>
-	            </tr>
-	            <tr>
-	            	<td>9시간38분</td>
-	            </tr>
-	        </table>
-	    </div>
-	    <%
-	    	}
-		%>
-		</div>
-		<div class="items">
-			<ul class="itemul">
-				<li class="itemBar"><h2 class="sajo">사조 인기경매</h2></li>
-				<li class="totalview"><a href="#"><img src="resources/img/totalview.PNG"></a></li>
-			</ul>
-		</div>
-		<hr width="80%">
-		<div class="itembox">
-		
-		<%
-			/* 나중에 db에 있는거 이런식으로for문????????????????????????????? */
-			/* List<DTO> attDto = new List();
-			arrDto = DAO.getProductList(); */
-			for(int i =0; i<10; i++){
-		%>
-		<div class="box">
-			<table border="1">
-				<tr>
-					<td><i> <a href="#"><img alt="" src="resources/img/cola.jpg"></a>	</i></td>
-				</tr>
-				<tr>
-					<td>${arrDto.title}</td>
-				</tr>
-				<tr>
-					<td>50000원</td>
-				</tr>
-				<tr>
-	               <td><span>입찰 <i>0</i></span> <span>조회<i>57</i></span></td>
-	            </tr>
-	            <tr>
-	               <td></td>
-	            </tr>
-	            <tr>
-	            	<td>9시간38분</td>
-	            </tr>
-	         
-	        </table>
-		</div>
-		<%
-			}
-		%>
-		</div>
-		<!-- --------------경매footer부분-------------- -->
+		<!-- --------------기부footer부분-------------- -->
 		<div class="footcopy">
 			<div class = "container">
 				<div class="footmenu">
