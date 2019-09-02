@@ -16,10 +16,14 @@
 }
 .event_list {
 	width: 900px;
-	height: 1500px;
+	height: 1050px;
 	margin-left: auto;
 	margin-right: auto;
 	background: black;
+}
+.product_list {
+	float: left;
+	width: 300px;
 }
 .event_ul {
 	list-style: none;
@@ -27,17 +31,19 @@
 	margin: 0px;
 	margin-left: -40px;
 }
-.event_list li {
-	float: left;
-	
+.product_img {
+	height: 200px;
 }
 .event_list ul li img{
 	width: 298px;
 	height: 200px;
 	border: 1px solid #dedede;
+	float: left;
 }
 .product_content {
 	width: 298px;
 	height: 150px;
-	background: white;
+	background: #E5E7E9;
+	text-align: center;
+	border: 1px solid #dedede;
 }

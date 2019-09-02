@@ -24,29 +24,102 @@
 			이달의 경품
 		</div>
 		<div class="event_list">
+		<!-- 응모 경품 첫번째줄 -->
 			<div class="product_list">
 				<ul class="event_ul">
-					<li>
-						<img src="resources/img/notebook.jpg">
-						<li class="product_content">
-							asdf
-						</li>
+					<li class="product_img">
+						<img src="resources/img/event_product1.jpg">
+					</li>
+					<li class="product_content">
+						<span>응모권  300개X</span>
+					</li>
+				</ul>
+			</div>
+			<div class="product_list" style="float: left;">
+				<ul class="event_ul">
+					<li class="product_img">
+						<img src="resources/img/event_product.jpg">
+					</li>
+					<li class="product_content">
+						<span>응모권  300개X</span>
 					</li>
 				</ul>
 			</div>
 			<div class="product_list">
 				<ul class="event_ul">
-					<li><img src="resources/img/notebook.jpg"></li>
+					<li class="product_img">
+						<img src="resources/img/event_product2.jpg">
+					</li>
+					<li class="product_content">
+						<span>응모권  300개X</span>
+					</li>
+				</ul>
+			</div>
+			<!-- 응모 경품 두번째줄 -->
+			<div class="product_list">
+				<ul class="event_ul">
+					<li class="product_img">
+						<img src="resources/img/event_product2.jpg">
+					</li>
+					<li class="product_content">
+						<span>응모권  300개X</span>
+					</li>
 				</ul>
 			</div>
 			<div class="product_list">
 				<ul class="event_ul">
-					<li><img src="resources/img/notebook.jpg"></li>
+					<li class="product_img">
+						<img src="resources/img/event_product2.jpg">
+					</li>
+					<li class="product_content">
+						<span>응모권  300개X</span>
+					</li>
+				</ul>
+			</div>
+			<div class="product_list">
+				<ul class="event_ul">
+					<li class="product_img">
+						<img src="resources/img/event_product2.jpg">
+					</li>
+					<li class="product_content">
+						<span>응모권  300개X</span>
+					</li>
+				</ul>
+			</div>
+			<!-- 응모 경품 세번째줄 -->
+			<div class="product_list">
+				<ul class="event_ul">
+					<li class="product_img">
+						<img src="resources/img/event_product2.jpg">
+					</li>
+					<li class="product_content">
+						<span>응모권  300개X</span>
+					</li>
+				</ul>
+			</div>
+			<div class="product_list">
+				<ul class="event_ul">
+					<li class="product_img">
+						<img src="resources/img/event_product2.jpg">
+					</li>
+					<li class="product_content">
+						<span>응모권  300개X</span>
+					</li>
+				</ul>
+			</div>
+			<div class="product_list">
+				<ul class="event_ul">
+					<li class="product_img">
+						<img src="resources/img/event_product2.jpg">
+					</li>
+					<li class="product_content">
+						<span>응모권  300개X</span>
+					</li>
 				</ul>
 			</div>
 		</div>
 		<!-- --------------footer부분-------------- -->
-		<!-- <div class="footcopy">
+		 <div class="footcopy">
 			<div class = "container">
 				<div class="footmenu">
 					<a href="#"><b>회사소개</b></a>
@@ -72,6 +145,6 @@
 		      		</p>
 	      		</div>
 	      	</div>
-		</div> -->
+		</div>
 	</body>
 </html>
