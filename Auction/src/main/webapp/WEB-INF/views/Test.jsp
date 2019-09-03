@@ -12,19 +12,19 @@
 		<table>
 			<tr align="center"> 
 				<th>아 이 디 </th>
-				<td>${testDTO.id}</td>
+				<td>${id}</td>
 			</tr>
 			<tr align="center"> 
 				<th>글쓴이</th>
-				<td>${testDTO.write}</td>
+				<td>${write}</td>
 			</tr>
 			<tr align="center"> 
 				<th>내용 </th>
-				<td>${testDTO.content}</td>
+				<td>${content}</td>
 			</tr>
 			<tr align="center"> 
 				<th>제목 </th>
-				<td>${testDTO.title}</td>
+				<td>${title}</td>
 			</tr>
 		</table>
 	</body>

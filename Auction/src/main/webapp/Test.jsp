@@ -8,8 +8,8 @@
 	</head>
 	<body>
 		<h1>회원가입</h1>
-		<hr color="red">
-		<form action="test.do">
+		<hr color="red"><a href="Test.do">dddd</a>
+		<form action="Test.do">
 			<table border="1">
 				<tr align="center"> 
 					<th>아 이 디 </th>
