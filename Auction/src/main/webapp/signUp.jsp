@@ -4,9 +4,16 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>사조사조</title>
+		
+		
+		
+		<title>Insert title here</title>
 	</head>
 	<body>
-		하이?
+		<jsp:include page="top.jsp" flush="false"></jsp:include>
+		<div>
+			<h1>회원가입</h1>
+			<
+		</div>
 	</body>
 </html>
