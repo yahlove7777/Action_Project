@@ -40,7 +40,7 @@
 					</p>
 				</li>
 			</ul>
-	  <div class="container">
+	  <div class="container_more">
 	  <!-- Btn-->
 	  <button class="btn"><span>더보기</span>
 	    <ul class="dropdown" style="margin: 0; padding: 0;">
@@ -115,7 +115,11 @@
 	    			</ul>
 	    		</li>
 	    		<li style="width: 150px;">
-	    			<a href="#">기부</a>
+	    			<a href="donation_main.jsp">기부</a>
+	    			<ul class="li-2-submenu">
+	    				<li><a href="#">기부</a></li>
+	    				<li><a href="#">응모</a></li>
+	    			</ul>
 	    		</li>
     			<li>
     				<select style="margin-left: 20px;">
@@ -126,7 +130,8 @@
 	    		</li>
 	    		<li style="margin-left: 20px; vertical-align: middle;">
 	    			<form action="" method="post">
-	    				<input type="text" name="search"> <input type="submit" value="검색">
+	    				<input type="text" name="search"> 
+	    				<input type="submit" value="검색">
 	    			</form>
 	    		</li>
 		    </ul>

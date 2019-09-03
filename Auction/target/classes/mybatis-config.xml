@@ -4,7 +4,7 @@
   "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 	<typeAliases>
-		<typeAlias type="com.auction.project.TestDTO" alias="tDTO"></typeAlias>
+		<typeAlias type="com.auction.project.DTO.TestDTO" alias="tDTO"></typeAlias>
 	</typeAliases>
 	<mappers>
 		<mapper resource="mapper/testMapper.xml" />

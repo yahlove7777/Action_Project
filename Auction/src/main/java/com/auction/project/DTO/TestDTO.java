@@ -1,4 +1,4 @@
-package com.auction.project;
+package com.auction.project.DTO;
 
 public class TestDTO {
 	private String id;
