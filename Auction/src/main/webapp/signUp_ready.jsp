@@ -14,7 +14,7 @@
 		<h2>회원가입</h2>
 		
 		<div class="join_center">
-			<!-- 일반로그인로그인-->
+			<!-- 일반로그인로그인--> 
 			<div>
 				<button>일반로그인</button>
 			</div>
