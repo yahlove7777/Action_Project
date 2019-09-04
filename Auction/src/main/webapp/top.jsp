@@ -28,7 +28,7 @@
 	        		<p>
 	        			<a class="nav_a" href="#"><b>사조경매가 처음이신가요?</b></a> 
 	        			<a class="nav_a" href="login.jsp">로그인</a> 
-	        			<a class="nav_a" href="#">회원가입</a> 
+	        			<a class="nav_a" href="signUp_ready.jsp">회원가입</a> 
 	        			<a class="nav_a" href="#">마이페이지</a>
 	        		</p>
 	        	</li>
