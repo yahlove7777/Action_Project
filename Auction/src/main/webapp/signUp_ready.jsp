@@ -15,7 +15,7 @@
 		
 		<div class="join_center">
 			<!-- 일반로그인로그인--> 
-			<div> 
+			<div>
 				<button>일반로그인</button>
 			</div>
 			<!-- 네이버로그인-->
