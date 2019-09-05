@@ -56,7 +56,12 @@
 		  </li>
 	      <li>
 		      <a class="drop_link" href="#">총 후원금액 
-		      	<span class="donation_money">0건</span>
+		      	<span class="donation_money">0원</span>
+		      </a>
+	      </li>
+	      <li>
+		      <a class="drop_link" href="#">응모권
+		      	<span class="donation_money">0개</span>
 		      </a>
 	      </li>
 	      <li>

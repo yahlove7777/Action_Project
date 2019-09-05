@@ -32,7 +32,7 @@
   position: absolute;
   top: 100%;
   left: 0;
-  background: #95A5A6;
+  background: #FFFFFF;
   width: 260px;;
   border-radius: 4px;
   text-align: left;
@@ -40,11 +40,12 @@
   visibility: hidden;
   transition: 0.3s ease;
   list-style: none;
+  border: 1px solid black;
 }
 .btn .dropdown li {
   z-index: 1;
   position: relative;
-  background: #95A5A6;
+  background: #FFFFFF;
   padding: 0 20px;
   color: #666;
 }
