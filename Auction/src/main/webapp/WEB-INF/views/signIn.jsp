@@ -16,6 +16,7 @@
 	
 	<!-- login form -->	
 	<div class="login_center">
+	
 		<div class="lgoin_align">
 			<!-- login id / pw 입력 -->
 			<div class="login_float">
@@ -42,7 +43,7 @@
 		</div>
 		<!-- 회원가입 -->
 		<div>
-			<button type="submit" onclick="doJoin();">회원가입</button>
+			<button type="submit" onclick="location.href='signUp_ready.do'">회원가입</button>
 		</div>
 	</div>
 		

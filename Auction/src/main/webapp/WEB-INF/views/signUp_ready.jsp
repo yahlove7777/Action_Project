@@ -15,27 +15,18 @@
 		
 		<div class="join_center">
 			<!-- 일반로그인로그인--> 
-			<div>
-				<button>일반로그인</button>
-			</div>
-			<!-- 네이버로그인-->
-			<div>
+			<div class="join_ready_button">
+				<button type="button" onclick="location.href='signUp.jsp'">일반로그인</button>
+				<!-- 네이버로그인-->
+				<a href="signUp.do">네이버</a>
 				<button>네이버</button>
-			</div>
-			<!-- 다음로그인-->
-			<div>
+				<!-- 다음로그인-->
 				<button>다음</button>
-			</div>
-			<!-- 구글로그인-->
-			<div>
+				<!-- 구글로그인-->
 				<button>구글</button>
-			</div>
-			<!-- 페이스북로그인-->
-			<div>
+				<!-- 페이스북로그인-->
 				<button>페이스북</button>
-			</div>
-			<!-- 카카오로그인-->
-			<div>
+				<!-- 카카오로그인-->
 				<button>카카오</button>
 			</div>
 		</div>

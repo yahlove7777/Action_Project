@@ -7,6 +7,7 @@
 		<title>Insert title here</title>
 	</head>
 	<body>
+		<jsp:include page="top.jsp" flush="false"></jsp:include>
 		<h1>회원가입</h1>
 		<h2>기본정보</h2>
 		<div>
