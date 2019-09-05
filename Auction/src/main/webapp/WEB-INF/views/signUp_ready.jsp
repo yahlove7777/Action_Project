@@ -11,7 +11,7 @@
 	<body>
 		<jsp:include page="top.jsp" flush="false"></jsp:include>
 		
-		<h2>회원가입</h2>
+		<h2>회원가입</h2> 
 		
 		<div class="join_center">
 			<!-- 일반로그인로그인--> 
