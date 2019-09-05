@@ -117,8 +117,8 @@
 	    		<li style="width: 150px;">
 	    			<a href="donation_main.jsp">기부</a>
 	    			<ul class="li-2-submenu">
-	    				<li><a href="#">기부</a></li>
-	    				<li><a href="#">응모</a></li>
+	    				<li><a href="donation_main.jsp">기부</a></li>
+	    				<li><a href="event_main.jsp">응모</a></li>
 	    			</ul>
 	    		</li>
     			<li>

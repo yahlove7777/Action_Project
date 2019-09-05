@@ -21,7 +21,10 @@
 			<img class="main_img" alt="" src="resources/img/event_main.jpg">
 		</div>
 		<div class="product_banner">
-			이달의 경품
+			<strong class="banner_title">이달의 경품</strong>
+			<div class="end_event">
+				<strong class="end_date">9월 30일 마감</strong>
+			</div>
 		</div>
 		<div class="event_list">
 		<!-- 응모 경품 첫번째줄 -->
@@ -29,9 +32,28 @@
 				<ul class="event_ul">
 					<li class="product_img">
 						<img src="resources/img/event_product1.jpg">
+						<div class="event_coupon">
+							<img style="width: 54px; height: 56px; border: 0px;" alt="응모권 300개" src="resources/img/event300.gif">
+						</div>
 					</li>
 					<li class="product_content">
-						<span>응모권  300개X</span>
+						<div class="coupon_count">
+							<h1 class="product_title">LG 노트북</h1>
+							<span>응모권  
+								<strong class="coupon_amount">300</strong>개 X
+									<input class="input_count"type="text" style="width: 26px; height: 14px; margin: 0 5px;">회
+								<strong class="all_coupon" style="color: #B7950B;">총 0개</strong>
+							</span>
+						</div>
+						<button class="event_btn">응모하기</button>
+						<br>
+						<div class="event_count">
+							<span>
+									현재
+								<strong class="all_count">123</strong>
+									건 응모중
+							</span>
+						</div>
 					</li>
 				</ul>
 			</div>
@@ -39,9 +61,28 @@
 				<ul class="event_ul">
 					<li class="product_img">
 						<img src="resources/img/event_product.jpg">
+						<div class="event_coupon">
+							<img style="width: 54px; height: 56px; border: 0px;" alt="응모권 300개" src="resources/img/event300.gif">
+						</div>
 					</li>
 					<li class="product_content">
-						<span>응모권  300개X</span>
+						<div class="coupon_count">
+						<h1 class="product_title">LED 마스크</h1>
+							<span>응모권  
+								<strong class="coupon_amount">300</strong>개 X
+									<input class="input_count"type="text" style="width: 26px; height: 14px; margin: 0 5px;">회
+								<strong class="all_coupon" style="color: #B7950B;">총 0개</strong>
+							</span>
+						</div>
+						<button class="event_btn">응모하기</button>
+						<br>
+						<div class="event_count">
+							<span>
+									현재
+								<strong class="all_count">123</strong>
+									건 응모중
+							</span>
+						</div>
 					</li>
 				</ul>
 			</div>
@@ -49,9 +90,28 @@
 				<ul class="event_ul">
 					<li class="product_img">
 						<img src="resources/img/event_product2.jpg">
+						<div class="event_coupon">
+							<img style="width: 54px; height: 56px; border: 0px;" alt="응모권 300개" src="resources/img/event300.gif">
+						</div>
 					</li>
 					<li class="product_content">
-						<span>응모권  300개X</span>
+						<div class="coupon_count">
+						<h1 class="product_title">삼천리 자전거</h1>
+							<span>응모권  
+								<strong class="coupon_amount">300</strong>개 X
+									<input class="input_count"type="text" style="width: 26px; height: 14px; margin: 0 5px;">회
+								<strong class="all_coupon" style="color: #B7950B;">총 0개</strong>
+							</span>
+						</div>
+						<button class="event_btn">응모하기</button>
+						<br>
+						<div class="event_count">
+							<span>
+									현재
+								<strong class="all_count">123</strong>
+									건 응모중
+							</span>
+						</div>
 					</li>
 				</ul>
 			</div>
@@ -59,30 +119,87 @@
 			<div class="product_list">
 				<ul class="event_ul">
 					<li class="product_img">
-						<img src="resources/img/event_product2.jpg">
+						<img src="resources/img/event_product3.jpg">
+						<div class="event_coupon">
+							<img style="width: 54px; height: 56px; border: 0px;" alt="응모권 200개" src="resources/img/event200.gif">
+						</div>
 					</li>
 					<li class="product_content">
-						<span>응모권  300개X</span>
+						<div class="coupon_count">
+						<h1 class="product_title">에어프라이기</h1>
+							<span>응모권  
+								<strong class="coupon_amount">200</strong>개 X
+									<input class="input_count"type="text" style="width: 26px; height: 14px; margin: 0 5px;">회
+								<strong class="all_coupon" style="color: #B7950B;">총 0개</strong>
+							</span>
+						</div>
+						<button class="event_btn">응모하기</button>
+						<br>
+						<div class="event_count">
+							<span>
+									현재
+								<strong class="all_count">123</strong>
+									건 응모중
+							</span>
+						</div>
 					</li>
 				</ul>
 			</div>
 			<div class="product_list">
 				<ul class="event_ul">
 					<li class="product_img">
-						<img src="resources/img/event_product2.jpg">
+						<img src="resources/img/event_product4.png">
+						<div class="event_coupon">
+							<img style="width: 54px; height: 56px; border: 0px;" alt="응모권 200개" src="resources/img/event200.gif">
+						</div>
 					</li>
 					<li class="product_content">
-						<span>응모권  300개X</span>
+						<div class="coupon_count">
+						<h1 class="product_title">갤럭시 버즈</h1>
+							<span>응모권  
+								<strong class="coupon_amount">200</strong>개 X
+									<input class="input_count"type="text" style="width: 26px; height: 14px; margin: 0 5px;">회
+								<strong class="all_coupon" style="color: #B7950B;">총 0개</strong>
+							</span>
+						</div>
+						<button class="event_btn">응모하기</button>
+						<br>
+						<div class="event_count">
+							<span>
+									현재
+								<strong class="all_count">123</strong>
+									건 응모중
+							</span>
+						</div>
 					</li>
 				</ul>
 			</div>
 			<div class="product_list">
 				<ul class="event_ul">
 					<li class="product_img">
-						<img src="resources/img/event_product2.jpg">
+						<img src="resources/img/event_product5.jpg">
+						<div class="event_coupon">
+							<img style="width: 54px; height: 56px; border: 0px;" alt="응모권 200개" src="resources/img/event200.gif">
+						</div>
 					</li>
 					<li class="product_content">
-						<span>응모권  300개X</span>
+						<div class="coupon_count">
+						<h1 class="product_title">눈 마사지기</h1>
+							<span>응모권  
+								<strong class="coupon_amount">200</strong>개 X
+									<input class="input_count"type="text" style="width: 26px; height: 14px; margin: 0 5px;">회
+								<strong class="all_coupon" style="color: #B7950B;">총 0개</strong>
+							</span>
+						</div>
+						<button class="event_btn">응모하기</button>
+						<br>
+						<div class="event_count">
+							<span>
+									현재
+								<strong class="all_count">123</strong>
+									건 응모중
+							</span>
+						</div>
 					</li>
 				</ul>
 			</div>
@@ -90,30 +207,87 @@
 			<div class="product_list">
 				<ul class="event_ul">
 					<li class="product_img">
-						<img src="resources/img/event_product2.jpg">
+						<img src="resources/img/event_product6.jpg">
+						<div class="event_coupon">
+							<img style="width: 54px; height: 56px; border: 0px;" alt="응모권 100개" src="resources/img/event100.gif">
+						</div>
 					</li>
 					<li class="product_content">
-						<span>응모권  300개X</span>
+						<div class="coupon_count">
+						<h1 class="product_title">나이키 더플백</h1>
+							<span>응모권  
+								<strong class="coupon_amount">100</strong>개 X
+									<input class="input_count"type="text" style="width: 26px; height: 14px; margin: 0 5px;">회
+								<strong class="all_coupon" style="color: #B7950B;">총 0개</strong>
+							</span>
+						</div>
+						<button class="event_btn">응모하기</button>
+						<br>
+						<div class="event_count">
+							<span>
+									현재
+								<strong class="all_count">123</strong>
+									건 응모중
+							</span>
+						</div>
 					</li>
 				</ul>
 			</div>
 			<div class="product_list">
 				<ul class="event_ul">
 					<li class="product_img">
-						<img src="resources/img/event_product2.jpg">
+						<img src="resources/img/event_product7.jpg">
+						<div class="event_coupon">
+							<img style="width: 54px; height: 56px; border: 0px;" alt="응모권 100개" src="resources/img/event100.gif">
+						</div>
 					</li>
 					<li class="product_content">
-						<span>응모권  300개X</span>
+						<div class="coupon_count">
+						<h1 class="product_title">CGV 영화관람권</h1>
+							<span>응모권  
+								<strong class="coupon_amount">100</strong>개 X
+									<input class="input_count"type="text" style="width: 26px; height: 14px; margin: 0 5px;">회
+								<strong class="all_coupon" style="color: #B7950B;">총 0개</strong>
+							</span>
+						</div>
+						<button class="event_btn">응모하기</button>
+						<br>
+						<div class="event_count">
+							<span>
+									현재
+								<strong class="all_count">123</strong>
+									건 응모중
+							</span>
+						</div>
 					</li>
-				</ul>
+				</ul> 
 			</div>
 			<div class="product_list">
 				<ul class="event_ul">
 					<li class="product_img">
-						<img src="resources/img/event_product2.jpg">
+						<img src="resources/img/event_product8.jpg">
+						<div class="event_coupon">
+							<img style="width: 54px; height: 56px; border: 0px;" alt="응모권 100개" src="resources/img/event100.gif">
+						</div>
 					</li>
 					<li class="product_content">
-						<span>응모권  300개X</span>
+						<div class="coupon_count">
+						<h1 class="product_title">할리스커피 교환권</h1>
+							<span>응모권  
+								<strong class="coupon_amount">100</strong>개 X
+									<input class="input_count"type="text" style="width: 26px; height: 14px; margin: 0 5px;">회
+								<strong class="all_coupon" style="color: #B7950B;">총 0개</strong>
+							</span>
+						</div>
+						<button class="event_btn">응모하기</button>
+						<br>
+						<div class="event_count">
+							<span>
+									현재
+								<strong class="all_count">123</strong>
+									건 응모중
+							</span>
+						</div>
 					</li>
 				</ul>
 			</div>
