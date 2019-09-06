@@ -16,5 +16,6 @@ public class SignController {
 	
 	@RequestMapping("signUp.do")
 	public void signUp() {
+		
 	}
 }
