@@ -14,7 +14,8 @@
 			 , a.name	<!-- member  / 사용자 이름 -->
 			 , a.tel	<!-- member  / 사용자 전화번호 -->
 	 	  FROM member a, address b
-		 WHERE a.#{id} = b.#{id}
+		 WHERE a.email = b.member_email
+		   and a.email = #{email}
 		
 	</select>
 
