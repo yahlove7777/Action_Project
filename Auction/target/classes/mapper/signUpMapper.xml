@@ -4,10 +4,10 @@
 
 <mapper namespace="signUpDAO">
 
-	<select id="select" parameterType="signUpInsertDTO" resultMap="rsMap">
+	<select id="select" parameterType="memberDTO" resultMap="rsMap">
 		SELECT a.email	<!-- member  / 사용자 이메일 -->
 			 , a.pw		<!-- member  / 사용자 비밀번호 -->
-			 , a.bitrh	<!-- member  / 사용자 생년월일 -->
+			 , a.birth	<!-- member  / 사용자 생년월일 -->
 			 , b.addr1	<!-- address / 사용자 우편번호-->
 			 , b.addr2	<!-- address / 사용자 주소-->
 			 , b.addr3	<!-- address / 사용자 상세주소 -->
@@ -19,10 +19,10 @@
 		
 	</select>
 
-	<resultMap type="signUpInsertDTO" id="rsMap">
+	<resultMap type="memberDTO" id="rsMap">
 		<result property="email" column="email" />
 		<result property="pw" column="pw" />
-		<result property="bitrh" column="bitrh" />
+		<result property="birth" column="birth" />
 		<result property="addr1" column="addr1" />
 		<result property="addr2" column="addr2" />
 		<result property="addr3" column="addr3" />
@@ -35,7 +35,7 @@
 			 , a.pw			<!-- member  / 사용자 비밀번호 -->
 			 , a.name		<!-- member  / 사용자 이름 -->
 			 , a.tel		<!-- member  / 사용자 전화번호 -->
-			 , a.bitrh		<!-- member  / 사용자 생년월일 -->
+			 , a.birth		<!-- member  / 사용자 생년월일 -->
 			 , b.account,	<!-- address  / 사용자 계좌 -->
 			 , b.bank_name	<!-- address  / 사용자 은행명 -->
 			 , c.place,		<!-- account  / 사용자 주소지 -->
@@ -49,15 +49,15 @@
 		   and a.email = c.member_email
 	</select>
 
-	<insert id="insert_member" parameterType="signUpInsertDTO">
+	<insert id="insert_member" parameterType="memberDTO">
 		INSERT INTO member
-		VALUES(#{email},#{pw},#{name},#{tel},#{bitrh})
+		VALUES(#{email},#{pw},#{name},#{tel},#{birth})
 	</insert>
- 	<insert id="insert_address" parameterType="signUpInsertDTO">
+ 	<insert id="insert_address" parameterType="memberDTO">
 		INSERT INTO address VALUES(#{email},#{place},#{recipient},#{tel},#{addr1},#{addr2},#{addr3})
 	</insert>
 
-	<update id="update" parameterType="signUpInsertDTO">
+	<update id="update" parameterType="memberDTO">
 		UPDATE tablename1
 		SET
 		columnname1=#{param1}
@@ -65,7 +65,7 @@
 		columnname2 = #{param2}
 	</update>
 
-	<delete id="delete" parameterType="signUpInsertDTO">
+	<delete id="delete" parameterType="memberDTO">
 		DELETE FROM tablename1 WHERE
 		columnname1 = #{param1}
 	</delete>

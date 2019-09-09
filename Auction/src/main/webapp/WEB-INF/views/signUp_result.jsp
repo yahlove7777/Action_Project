@@ -19,7 +19,7 @@
 			</tr>
 			<tr align="center"> 
 				<th>생일 </th>
-				<td>${signupselectDTO.bitrh}</td>
+				<td>${signupselectDTO.birth}</td>
 			</tr>
 			<tr align="center"> 
 				<th>주소 </th>

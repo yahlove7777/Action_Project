@@ -6,7 +6,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.auction.project.DAO.SignUpInsertDAO;
-import com.auction.project.DTO.SignUpInsertDTO;
+import com.auction.project.DTO.AddressDTO;
+import com.auction.project.DTO.MemberDTO;
 
 @Controller
 public class SignController {
@@ -28,13 +29,17 @@ public class SignController {
 	}
 	
 	@RequestMapping("signUp_insert.do")
-	public String signUp_insert(SignUpInsertDTO signUpInsertDTO, Model model) {
-		signUpInsertDTO.setPlace("hoem");
-		signUpInsertDTO.setRecipient("choo");
-		suiDAO.insert(signUpInsertDTO);
+	public String signUp_insert(MemberDTO memberDTO, AddressDTO addressDTO,Model model) {
+		suiDAO.insert_member(memberDTO);
+		addressDTO.setMember_email(memberDTO.getEmail());
+		addressDTO.setPlace("hoem");
+		addressDTO.setRecipient("choo");
+		suiDAO.insert_address(addressDTO);
 		
-		SignUpInsertDTO signupselectDTO = suiDAO.select(signUpInsertDTO);
-		model.addAttribute("signupselectDTO", signupselectDTO);
+		/*
+		 * MemberDTO signupselectDTO = suiDAO.select(memberDTO);
+		 * model.addAttribute("signupselectDTO", signupselectDTO);
+		 */
 		return "signUp_result";
 	}
 }

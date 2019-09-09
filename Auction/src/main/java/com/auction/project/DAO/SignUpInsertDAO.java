@@ -6,7 +6,8 @@ import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.auction.project.DTO.SignUpInsertDTO;
+import com.auction.project.DTO.AddressDTO;
+import com.auction.project.DTO.MemberDTO;
 
 @Repository //DB용 bean
 public class SignUpInsertDAO {
@@ -14,24 +15,27 @@ public class SignUpInsertDAO {
 	@Autowired
 	SqlSessionTemplate mybatis;
 	
-	public void insert(SignUpInsertDTO signUpInsertDTO) {
-		mybatis.insert("signUpDAO.insert_member", signUpInsertDTO);
-		mybatis.insert("signUpDAO.insert_address", signUpInsertDTO);
+	public void insert_member(MemberDTO memberDTO) {
+		mybatis.insert("signUpDAO.insert_member", memberDTO);
 	}
 	
-	public void delete(SignUpInsertDTO signUpInsertDTO) {
-		mybatis.delete("signUpDAO.delete", signUpInsertDTO);
+	public void insert_address(AddressDTO addressDTO) {
+		mybatis.insert("signUpDAO.insert_address", addressDTO);
 	}
 	
-	public void update(SignUpInsertDTO signUpInsertDTO) {
-		mybatis.update("signUpDAO.update", signUpInsertDTO);
+	public void delete(MemberDTO memberDTO) {
+		mybatis.delete("signUpDAO.delete", memberDTO);
 	}
 	
-	public SignUpInsertDTO select(SignUpInsertDTO signUpInsertDTO) {
-		return mybatis.selectOne("signUpDAO.select", signUpInsertDTO);
+	public void update(MemberDTO memberDTO) {
+		mybatis.update("signUpDAO.update", memberDTO);
 	}
 	
-	public List<SignUpInsertDTO> selectAll() {
+	public MemberDTO select(MemberDTO memberDTO) {
+		return mybatis.selectOne("signUpDAO.select", memberDTO);
+	}
+	
+	public List<MemberDTO> selectAll() {
 		return mybatis.selectList("signUpDAO.selectAll");
 	} 
 }

@@ -25,7 +25,7 @@
 					</tr>
 					<tr>
 						<th>생일</th>
-						<td><input type="text" name="bitrh"></td>
+						<td><input type="text" name="birth"></td>
 					</tr>
 					<tr>
 						<th>주소</th>
