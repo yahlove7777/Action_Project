@@ -31,8 +31,12 @@ public class SignUpInsertDAO {
 		mybatis.update("signUpDAO.update", memberDTO);
 	}
 	
-	public MemberDTO select(MemberDTO memberDTO) {
-		return mybatis.selectOne("signUpDAO.select", memberDTO);
+	public MemberDTO select_member(MemberDTO memberDTO) {
+		return mybatis.selectOne("signUpDAO.select_member", memberDTO);
+	}
+	
+	public AddressDTO select_address(AddressDTO addressDTO) {
+		return mybatis.selectOne("signUpDAO.select_address", addressDTO);
 	}
 	
 	public List<MemberDTO> selectAll() {

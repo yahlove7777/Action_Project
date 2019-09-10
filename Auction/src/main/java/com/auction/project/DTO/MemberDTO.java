@@ -1,6 +1,6 @@
 package com.auction.project.DTO;
 
-public class MemberDTO extends AddressDTO {
+public class MemberDTO {
 	private String email;		//사용자 이메일
 	private String pw;			//사용자 비밀번호
 	private String name;		//사용자 이름

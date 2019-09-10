@@ -11,35 +11,36 @@ import com.auction.project.DTO.MemberDTO;
 
 @Controller
 public class SignController {
-	
+
 	@Autowired
-	SignUpInsertDAO suiDAO;	//로그인 DAO
-	
+	SignUpInsertDAO suiDAO; // 로그인 DAO
+
 	@RequestMapping("signIn.do")
 	public void signIn() {
 	}
-	
+
 	@RequestMapping("signUp_ready.do")
 	public void signUp_ready() {
 	}
-	
+
 	@RequestMapping("signUp.do")
 	public void signUp() {
-		
+
 	}
-	
+
 	@RequestMapping("signUp_insert.do")
-	public String signUp_insert(MemberDTO memberDTO, AddressDTO addressDTO,Model model) {
+	public String signUp_insert(MemberDTO memberDTO, AddressDTO addressDTO, Model model) {
 		suiDAO.insert_member(memberDTO);
 		addressDTO.setMember_email(memberDTO.getEmail());
 		addressDTO.setPlace("hoem");
 		addressDTO.setRecipient("choo");
 		suiDAO.insert_address(addressDTO);
 		
-		/*
-		 * MemberDTO signupselectDTO = suiDAO.select(memberDTO);
-		 * model.addAttribute("signupselectDTO", signupselectDTO);
-		 */
+		MemberDTO memberInsertDTO = suiDAO.select_member(memberDTO);
+		/* AddressDTO addressInsertDTO = suiDAO.select_address(addressDTO); */
+		model.addAttribute("memberInsertDTO", memberInsertDTO);
+		/* model.addAttribute("addressInsertDTO", addressInsertDTO); */
+		
 		return "signUp_result";
 	}
 }

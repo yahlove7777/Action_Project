@@ -4,19 +4,21 @@
 
 <mapper namespace="signUpDAO">
 
-	<select id="select" parameterType="memberDTO" resultMap="rsMap">
+	<select id="select_member" parameterType="memberDTO" resultMap="rsMap">
 		SELECT a.email	<!-- member  / 사용자 이메일 -->
 			 , a.pw		<!-- member  / 사용자 비밀번호 -->
 			 , a.birth	<!-- member  / 사용자 생년월일 -->
-			 , b.addr1	<!-- address / 사용자 우편번호-->
-			 , b.addr2	<!-- address / 사용자 주소-->
-			 , b.addr3	<!-- address / 사용자 상세주소 -->
 			 , a.name	<!-- member  / 사용자 이름 -->
 			 , a.tel	<!-- member  / 사용자 전화번호 -->
-	 	  FROM member a, address b
-		 WHERE a.email = b.member_email
-		   and a.email = #{email}
-		
+	 	  FROM member a
+		 WHERE a.email = #{email}
+	</select>
+	<select id="select_address" parameterType="addressDTO" resultMap="addr_rsMap">
+		SELECT b.addr1	<!-- address / 사용자 우편번호-->
+			 , b.addr2	<!-- address / 사용자 주소-->
+			 , b.addr3	<!-- address / 사용자 상세주소 -->
+	 	  FROM address b
+		 WHERE b.member_email = #{member_email}
 	</select>
 
 	<resultMap type="memberDTO" id="rsMap">

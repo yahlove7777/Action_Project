@@ -23,11 +23,18 @@
 		<result property="email" column="email" />
 		<result property="pw" column="pw" />
 		<result property="birth" column="birth" />
+		<result property="name" column="name" />
+		<result property="tel" column="tel" />
+	</resultMap>
+	
+	<resultMap type="addressDTO" id="addr_rsMap">
+		<result property="member_email" column="member_email" />
+		<result property="place" column="place" />
+		<result property="tel" column="tel" />
+		<result property="recipient" column="recipient" />
 		<result property="addr1" column="addr1" />
 		<result property="addr2" column="addr2" />
 		<result property="addr3" column="addr3" />
-		<result property="name" column="name" />
-		<result property="tel" column="tel" />
 	</resultMap>
 
 	<select id="selectAll" resultMap="rsMap">
@@ -53,8 +60,8 @@
 		INSERT INTO member
 		VALUES(#{email},#{pw},#{name},#{tel},#{birth})
 	</insert>
- 	<insert id="insert_address" parameterType="memberDTO">
-		INSERT INTO address VALUES(#{email},#{place},#{recipient},#{tel},#{addr1},#{addr2},#{addr3})
+ 	<insert id="insert_address" parameterType="addressDTO">
+		INSERT INTO address VALUES(#{member_email},#{place},#{recipient},#{tel},#{addr1},#{addr2},#{addr3})
 	</insert>
 
 	<update id="update" parameterType="memberDTO">
