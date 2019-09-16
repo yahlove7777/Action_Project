@@ -11,29 +11,29 @@
 		<table>
 			<tr align="center"> 
 				<th>이메일 </th>
-				<td>${signupselectDTO.email}</td>
+				<td>${memberInsertDTO.email}</td>
 			</tr>
 			<tr align="center"> 
 				<th>비밀번호</th>
-				<td>${signupselectDTO.pw}</td>
+				<td>${memberInsertDTO.pw}</td>
 			</tr>
 			<tr align="center"> 
 				<th>생일 </th>
-				<td>${signupselectDTO.bitrh}</td>
+				<td>${memberInsertDTO.birth}</td>
 			</tr>
 			<tr align="center"> 
 				<th>주소 </th>
-				<td>${signupselectDTO.addr1}</td>
-				<td>${signupselectDTO.addr2}</td>
-				<td>${signupselectDTO.addr3}</td>
+				<td>${addressInsertDTO.addr1}</td>
+				<td>${addressInsertDTO.addr2}</td>
+				<td>${addressInsertDTO.addr3}</td>
 			</tr>
 			<tr align="center"> 
 				<th>이름 </th>
-				<td>${signupselectDTO.name}</td>
+				<td>${memberInsertDTO.name}</td>
 			</tr>
 			<tr align="center"> 
 				<th>전화번호 </th>
-				<td>${signupselectDTO.tel}</td>
+				<td>${memberInsertDTO.tel}</td>
 			</tr>
 		</table>
 	</body>

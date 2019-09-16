@@ -5,7 +5,8 @@
 <configuration>
 	<typeAliases>
 		<typeAlias type="com.auction.project.DTO.TestDTO" alias="tDTO"></typeAlias>
-		<typeAlias type="com.auction.project.DTO.SignUpInsertDTO" alias="signUpInsertDTO"></typeAlias>
+		<typeAlias type="com.auction.project.DTO.AddressDTO" alias="addressDTO"></typeAlias>
+		<typeAlias type="com.auction.project.DTO.MemberDTO" alias="memberDTO"></typeAlias>
 	</typeAliases>
 	<mappers>
 		<mapper resource="mapper/testMapper.xml" />
