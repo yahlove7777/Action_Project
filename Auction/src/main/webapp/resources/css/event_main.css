@@ -73,7 +73,7 @@
 	border: 1px solid #dedede;
 }
 .event_btn {
-  background-color: #229954;
+  background-color: #CA6F1E;
   border: none;
   color: #17202A;
   cursor: pointer;
@@ -102,7 +102,7 @@
   width: 24px;
 }
 .event_btn:before {
-  border-color: #229954;
+  border-color: #CA6F1E;
   border-right-width: 2px;
   border-top-width: 2px;
   right: -5px;
@@ -110,14 +110,14 @@
 }
 .event_btn:after {
   border-bottom-width: 2px;
-  border-color: #229954;
+  border-color: #CA6F1E;
   border-left-width: 2px;
   bottom: -5px;
   left: -5px;
 }
 .event_btn:hover,
 .event_btn.hover {
-  background-color: #229954;
+  background-color: #CA6F1E;
 }
 .event_btn:hover:before,
 .event_btn.hover:before,
@@ -145,7 +145,7 @@
 	margin-bottom: 10px;
 	margin-top: -10px;
 	color: #21618C;
-}@charset "UTF-8";
+}
 
 .main_img {
 	width: 500px;
@@ -171,6 +171,7 @@
 .product_list {
 	float: left;
 	width: 300px;
+	position: relative;
 }
 .event_ul {
 	list-style: none;
@@ -193,4 +194,41 @@
 	background: #E5E7E9;
 	text-align: center;
 	border: 1px solid #dedede;
+}
+.ly_check {
+	position:absolute;
+	top: 62px;
+	left: 31px;
+	width:240px;
+	height: 65px;
+	text-align: center;
+	border: 1px solid black;
+	padding: 20px;
+	line-height: 16px;
+	background: #FFF;
+}
+.event_list .product_content .ly_check{
+	position: absolute;
+	top: 170px;
+	left: 40px;
+	width: 200px;
+	height: 75px;
+	padding: 15px 10px 5px 10px;
+	font-size: 11px;
+	line-height: 16px;
+	letter-spacing: -1px;
+	z-index: 3;
+}
+.mybetball {
+	position: relative;
+	width: 679px;
+	height: 43px;
+	border-top: 3px solid #eae8e7;
+	border-left: 3px solid #eae8e7;
+	border-right: 3px solid #eae8e7;
+	border-bottom: 3px solid #eae8e7;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	
 }

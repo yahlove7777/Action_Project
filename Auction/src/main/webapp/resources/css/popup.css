@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #666;
+	font-size: 12px;
+	font-family: Dotum, "돋움",sans-serif;
+	background: #FDF2E9;
+}
+img {
+	border: 0;
+}
+table {
+	font-size: 12px;
+	border-collapse: collapse;
+	margin: 0;
+	padding: 0;
+}
+/* popup layout */
+
+div .top {
+	height: 54px;
+}
+div.top h1.h1 {
+	margin: 0;
+	padding: 0 0 0 37px;
+	font-size: 16px;
+	color: #fff;
+	background: black;
+	height: 30px;
+}
+div.contents {
+	padding: 17px 20px;
+}
+.betgift h2 {
+	margin: 20px 0 5px 0;
+	background: none;
+	padding: 0;
+}
+.betgift h2.first {
+	margin-top:0;
+}
+.betgift .contents {
+	margin: 6px 0 0 8px;
+	padding: 0;
+	width: 484px;
+	background: #fff;
+}
+.betgift .contents-bg {
+	padding: 17px;
+}
+.betgift .contents table.dataH0102 {
+	width: 433px; 
+	border-top: 5px solid black;
+}
+table tr{
+	border-top: 1px solid black;
+	background: #FBEEE6;
+}
+.betgift .gift-noti {
+	font-size: 11px;
+	color:#756855;
+	margin:12px 0 15px 2px;
+	line-height: 15px;
+}
+div.btnC {
+	margin-left: auto;
+}
+
+
+
+
