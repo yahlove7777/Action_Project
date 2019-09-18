@@ -35,17 +35,14 @@
 			<div class="donation_card">
 				<ul>
 					<!-- 기부카드 첫번째줄 -->
-					<li class="all_donation">
 					<!-- 간단한 총 기부참여자 및 기부금액  -->
+					<li class="all_donation">
 						<a href="#" class="all_donation_card">
 							<span class="donation_label">기부</span>
 							<strong class="all_donation_title">
 							당신의 참여가
 							<br> 
 							변화의 시작입니다.</strong>
-							<span class="donation_more">
-							더보기
-							</span>
 							<!-- 참여인원 및 총기부금액표시 -->
 							<dl class="donation_now">
 								<dt class="dt_title">
@@ -67,9 +64,11 @@
 					<!-- 기부항목 -->
 					<li class="card_contents">
 						<div class="card_header">
+						<a href="donation_detail.jsp" style="text-decoration: none;">
 							<img src="resources/img/donation.jpg">
 							<h1 class="card_title">시골 작은 영화관</h1>
 							<p>이랜드하당재가센터</p>
+						</a>
 							<div id="myProgress">
 								<div id="myBar">
 								</div>
@@ -80,7 +79,7 @@
 								<span class="text">원</span>
 							</strong>
 								<!-- 아래버튼은 기부상세페이지에 넣을 예정 -->
-								<!-- <button onclick="move()">기부하기</button> -->
+								<!-- <button type="button" onclick="move()">기부하기</button> -->
 						</div>
 					</li>
 					<li class="card_contents">
@@ -131,15 +130,14 @@
 							</strong>
 						</div>
 					</li>
-					<!-- 기부카드 두번째줄 -->
-					<li class="all_donation">
-						기부 내용들(리스트 넣기)
-					</li>
-					<li class="card_contents">기부 내용들(리스트 넣기)</li>
-					<li class="card_contents">기부 내용들(리스트 넣기)</li>
-					<li class="card_contents">기부 내용들(리스트 넣기)</li>
-					<li class="card_contents">기부 내용들(리스트 넣기)</li>
 				</ul>
+					<!-- 기부카드 두번째줄 -->
+				<ul style="float: right;">
+					<li class="card_contents">기부 내용들(리스트 넣기)</li>
+					<li class="card_contents">기부 내용들(리스트 넣기)</li>
+					<li class="card_contents">기부 내용들(리스트 넣기)</li>
+					<li class="card_contents">기부 내용들(리스트 넣기)</li>
+				</ul>					
 			</div>
 		</div>
 		

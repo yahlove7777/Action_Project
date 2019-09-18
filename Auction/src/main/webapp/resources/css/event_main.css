@@ -219,16 +219,32 @@
 	letter-spacing: -1px;
 	z-index: 3;
 }
-.mybetball {
+.winner {
 	position: relative;
-	width: 679px;
-	height: 43px;
-	border-top: 3px solid #eae8e7;
-	border-left: 3px solid #eae8e7;
-	border-right: 3px solid #eae8e7;
-	border-bottom: 3px solid #eae8e7;
+	width: 900px;
+	height: 42px;
+	border-top: 3px solid #7F8C8D;
+	border-left: 3px solid #7F8C8D;
+	border-right: 3px solid #7F8C8D;
+	border-bottom: 3px solid #7F8C8D;
 	margin-bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
-	
+}
+span.now {
+	display: inline-block;
+	margin-top: 4px;
+	margin-left: 10px;
+	font-size: 25px;
+	color: #1F618D;
+}
+.mycoupon_cnt {
+	color: #A93226;
+}
+.winner_view {
+	float: right;
+	margin-right: 10px;
+	margin-top: 8px;
+	width: 100px;
+	height: 27px;
 }

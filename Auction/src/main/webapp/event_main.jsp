@@ -24,18 +24,13 @@
 			<img class="main_img" alt="" src="resources/img/event_main.jpg">
 		</div>
 		<!-- 당첨자 보기 -->
-		<div class="mybetball">
+		<div class="winner">
 			<span class="now">
-				<a name="oneFocus"></a>
 				<!-- 레이어 선택시  focus 위치 -->
 				<span>나의 응모권수</span>
-				<strong>100</strong>개
+				<strong class="mycoupon_cnt">100</strong>개
 			</span>
-			<span class="btn">
-				<a href="#">
-					<button type="button" onclick="popup();">당첨자 보기</button>
-				</a>
-			</span>
+			<button type="button" class="winner_view" onclick="popup();">당첨자 보기</button>
 		</div>
 		<div class="product_banner">
 			<strong class="banner_title">이달의 경품</strong>

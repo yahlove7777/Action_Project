@@ -41,6 +41,10 @@
 	margin: 0;
 	padding: 0;
 }
+.card_header a:visited {
+	text-decoration: none;
+	color: #000000;
+}
 .card_header img {
 	width: 300px;
 	height: 250px;
@@ -94,16 +98,8 @@
 	letter-spacing: -1px;
 	padding-top: 10px;
 }
-.donation_more {
-	margin-top: 18px;
-	display: inline-block;
-	position: relative;
-	padding-right: 200px;
-	opacity: .8;
-	text-align: left;
-}
 .donation_now {
-	margin-top:50px;
+	margin-top:90px;
 	padding-top: 40px;
 	font-size: 18px;
 	border-top: 1px solid black;

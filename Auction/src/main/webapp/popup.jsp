@@ -4,7 +4,7 @@
 <html>
 		<head>
 			<meta charset="UTF-8">
-			<title>Insert title here</title>
+			<title>당첨자 보기</title>
 			<link href="resources/css/popup.css" rel="stylesheet" type="text/css" />
 		<script type="text/javascript">
 			var nowMonth ='201909';
@@ -85,7 +85,9 @@
 				[마이페이지 > 개인정보] 에서 연락처를 반드시 확인해 주세요.
 				</div>
 				<div class="btnC">
-					<img src="resources/img/btn_close01.gif" alt="닫기">
+					<a href="javascript:self.close();">
+						<img src="resources/img/btn_close01.gif" alt="닫기">
+					</a>
 				</div>		
 			</div>
 		</div>
