@@ -6,12 +6,70 @@
 			<meta charset="UTF-8">
 			<title>Insert title here</title>
 			<link href="resources/css/donation_detail.css" rel="stylesheet" type="text/css" />
+			<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+		<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    	<script type="text/javascript" src="resources/js/main.js" charset="UTF-8"></script>
 		</head>
 	<body>
 		<!-- 로그인후에 상단바 -->
 		<jsp:include page="top_login.jsp" flush="false"></jsp:include>
 		
 		<div class="container">
+		<!-- 기부 배너스크롤 -->
+		<div class="banner_scroll">
+			<div class="graph_wrap">
+				<div class="graph_status">
+					<span class="per">
+						<strong class="num">24</strong>
+						%
+					</span>
+				</div>
+				<div class="graph_bar">
+					<span class="donation_bar" style="width: 24%"></span>
+				</div>
+				<div class="term_area">
+					<p>
+						<strong>2019.09.19~2019.10.01</strong>
+						<span>까지</span>
+					</p>
+					<div>
+						<span class="d_day">
+						D
+						<em class="bar">-</em>
+						20
+						</span>
+					</div>
+				</div>
+				<div class="num_area">
+					<p class="status_num">
+						<strong>399,200</strong>
+						<span>원</span>
+					</p>
+					<p class="purpose_num">
+						<strong>6,000,000</strong>
+						<span>원 목표</span>
+					</p>
+				</div>
+				<div class="account_area">
+					<p class="my_account">
+						<span>내 보유금액</span>
+						<strong>10,000</strong>
+						<span>원</span>
+					</p>
+				</div>
+				<div class="input_area">
+					<span class="money">
+						<input type="text">
+						<span>원</span>
+					</span>
+				</div>
+			</div>
+				<div class="donation_btn">
+					<a href="#">
+						<img src="resources/img/donation_btn.png" alt="모금함 기부하기">
+					</a>
+				</div>
+		</div>
 			<div class="collect_wrap">
 				<div class="collect_content">
 					<h3 class="title">아이의 다친 마음을 회복시키는 미술심리치료</h3>
