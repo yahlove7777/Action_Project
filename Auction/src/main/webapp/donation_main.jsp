@@ -69,15 +69,18 @@
 							<h1 class="card_title">시골 작은 영화관</h1>
 							<p>이랜드하당재가센터</p>
 						</a>
-							<div id="myProgress">
-								<div id="myBar">
+							<div class="graph_wrap">
+								<div class="graph_bar">
+									<span class="donation_bar" style="width: 24%"></span>
 								</div>
+								<strong class="donation_percent">25
+								<span>%</span>
+								</strong>
+								<strong class="donation_money">
+									100,000
+									<span class="text">원</span>
+								</strong>
 							</div>
-							<strong class="donation_percent">25%</strong>
-							<strong class="donation_money">
-								100,000
-								<span class="text">원</span>
-							</strong>
 								<!-- 아래버튼은 기부상세페이지에 넣을 예정 -->
 								<!-- <button type="button" onclick="move()">기부하기</button> -->
 						</div>
@@ -87,15 +90,18 @@
 							<img src="resources/img/donation1.jpg">
 							<h1 class="card_title">시골 작은 영화관</h1>
 							<p>이랜드하당재가센터</p>
-							<div id="myProgress">
-								<div id="myBar">
+							<div class="graph_wrap">
+								<div class="graph_bar">
+									<span class="donation_bar" style="width: 24%"></span>
 								</div>
+								<strong class="donation_percent">25
+								<span>%</span>
+								</strong>
+								<strong class="donation_money">
+									100,000
+									<span class="text">원</span>
+								</strong>
 							</div>
-							<strong class="donation_percent">25%</strong>
-							<strong class="donation_money">
-								100,000
-								<span class="text">원</span>
-							</strong>
 						</div>
 					</li>
 					<li class="card_contents">
@@ -103,15 +109,18 @@
 							<img src="resources/img/donation2.png">
 							<h1 class="card_title">시골 작은 영화관</h1>
 							<p>이랜드하당재가센터</p>
-							<div id="myProgress">
-								<div id="myBar">
+							<div class="graph_wrap">
+								<div class="graph_bar">
+									<span class="donation_bar" style="width: 24%"></span>
 								</div>
+								<strong class="donation_percent">25
+								<span>%</span>
+								</strong>
+								<strong class="donation_money">
+									100,000
+									<span class="text">원</span>
+								</strong>
 							</div>
-							<strong class="donation_percent">25%</strong>
-							<strong class="donation_money">
-								100,000
-								<span class="text">원</span>
-							</strong>
 						</div>
 					</li>
 					<li class="card_contents">
@@ -119,15 +128,18 @@
 							<img src="resources/img/donation3.jpg">
 							<h1 class="card_title">시골 작은 영화관</h1>
 							<p>이랜드하당재가센터</p>
-							<div id="myProgress">
-								<div id="myBar">
+							<div class="graph_wrap">
+								<div class="graph_bar">
+									<span class="donation_bar" style="width: 24%"></span>
 								</div>
+								<strong class="donation_percent">25
+								<span>%</span>
+								</strong>
+								<strong class="donation_money">
+									100,000
+									<span class="text">원</span>
+								</strong>
 							</div>
-							<strong class="donation_percent">25%</strong>
-							<strong class="donation_money">
-								100,000
-								<span class="text">원</span>
-							</strong>
 						</div>
 					</li>
 				</ul>
