@@ -51,7 +51,7 @@
 								<dd class="dd_content">
 									<span class="point">1,234,111</span>명
 								</dd>
-								
+								 
 								<dt class="dt_title">
 									<i class="people">기부금액</i>
 								</dt>
@@ -66,7 +66,7 @@
 						<div class="card_header">
 						<a href="donation_detail.jsp" style="text-decoration: none;">
 							<img src="resources/img/donation.jpg">
-							<h1 class="card_title">시골 작은 영화관</h1>
+							<h1 class="card_title">${donationDTO.tit}</h1>
 							<p>이랜드하당재가센터</p>
 						</a>
 							<div class="graph_wrap">

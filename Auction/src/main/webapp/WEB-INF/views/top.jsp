@@ -66,7 +66,7 @@
 	    			</ul>
 	    		</li>
 	    		<li style="width: 150px;">
-	    			<a href="donation_main.jsp">기부</a>
+	    			<a href="donation_main.do">기부</a>
 	    		</li>
     			<li>
     				<select style="margin-left: 20px;">
