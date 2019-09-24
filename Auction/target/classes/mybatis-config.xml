@@ -11,5 +11,9 @@
 	<mappers>
 		<mapper resource="mapper/testMapper.xml" />
 		<mapper resource="mapper/signUpMapper.xml" />
+<<<<<<< HEAD
+=======
+		<mapper resource="mapper/AdminMemberMapper.xml" />
+>>>>>>> branch 'master' of https://github.com/yahlove7777/Auction_Project
 	</mappers>
 </configuration>
