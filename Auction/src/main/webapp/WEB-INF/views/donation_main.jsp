@@ -61,12 +61,17 @@
 							</dl>
 						</a>
 					</li>
+					</ul>
 					<!-- 기부항목 -->
-					<li class="card_contents">
+					<ul>
+					<%
+						for(int i = 1; i < 8; i++) {
+					%>
+					<li class="card_contents" style="float: left;">
 						<div class="card_header">
 						<a href="donation_detail.jsp" style="text-decoration: none;">
 							<img src="resources/img/donation.jpg">
-							<h1 class="card_title">${donationDTO.tit}</h1>
+							<h1 class="card_title">기부제목</h1>
 							<p>이랜드하당재가센터</p>
 						</a>
 							<div class="graph_wrap">
@@ -81,75 +86,12 @@
 									<span class="text">원</span>
 								</strong>
 							</div>
-								<!-- 아래버튼은 기부상세페이지에 넣을 예정 -->
-								<!-- <button type="button" onclick="move()">기부하기</button> -->
 						</div>
 					</li>
-					<li class="card_contents">
-						<div class="card_header">
-							<img src="resources/img/donation1.jpg">
-							<h1 class="card_title">시골 작은 영화관</h1>
-							<p>이랜드하당재가센터</p>
-							<div class="graph_wrap">
-								<div class="graph_bar">
-									<span class="donation_bar" style="width: 24%"></span>
-								</div>
-								<strong class="donation_percent">25
-								<span>%</span>
-								</strong>
-								<strong class="donation_money">
-									100,000
-									<span class="text">원</span>
-								</strong>
-							</div>
-						</div>
-					</li>
-					<li class="card_contents">
-						<div class="card_header">
-							<img src="resources/img/donation2.png">
-							<h1 class="card_title">시골 작은 영화관</h1>
-							<p>이랜드하당재가센터</p>
-							<div class="graph_wrap">
-								<div class="graph_bar">
-									<span class="donation_bar" style="width: 24%"></span>
-								</div>
-								<strong class="donation_percent">25
-								<span>%</span>
-								</strong>
-								<strong class="donation_money">
-									100,000
-									<span class="text">원</span>
-								</strong>
-							</div>
-						</div>
-					</li>
-					<li class="card_contents">
-						<div class="card_header">
-							<img src="resources/img/donation3.jpg">
-							<h1 class="card_title">시골 작은 영화관</h1>
-							<p>이랜드하당재가센터</p>
-							<div class="graph_wrap">
-								<div class="graph_bar">
-									<span class="donation_bar" style="width: 24%"></span>
-								</div>
-								<strong class="donation_percent">25
-								<span>%</span>
-								</strong>
-								<strong class="donation_money">
-									100,000
-									<span class="text">원</span>
-								</strong>
-							</div>
-						</div>
-					</li>
-				</ul>
-					<!-- 기부카드 두번째줄 -->
-				<ul style="float: right;">
-					<li class="card_contents">기부 내용들(리스트 넣기)</li>
-					<li class="card_contents">기부 내용들(리스트 넣기)</li>
-					<li class="card_contents">기부 내용들(리스트 넣기)</li>
-					<li class="card_contents">기부 내용들(리스트 넣기)</li>
-				</ul>					
+					<%
+						}
+					%>
+					</ul>
 			</div>
 		</div>
 		

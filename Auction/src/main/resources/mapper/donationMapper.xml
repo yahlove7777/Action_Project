@@ -5,17 +5,12 @@
 <mapper namespace="donationDAO">
 
 	<select id="select_donation" parameterType="donationDTO" resultType="rsMap">
-		SELECT dona_tit <!-- 기부제목 -->
-			 , dona_tit_sub <!-- 기부 서브제목 -->
-			 , dona_con		<!-- 기부내용 -->
-			 , dona_start_yy <!-- 기부 시작년 -->
-			 , dona_start_mm <!-- 기부 시작월 -->
-			 , dona_start_dd <!-- 기부 시작일 -->
-			 , dona_end_yy <!-- 기부 마감년 -->
-			 , dona_end_mm <!-- 기부 마감월 -->
-			 , dona_end_dd <!-- 기부 마감일 -->
-		FROM d_detail
-		WHERE dona_num = #{dona_num}
+		SELECT
+		columnname1,
+		columnname2,
+		columnname3
+		FROM tablename1
+		WHERE columnname1 = #{value}
 	</select>
 
 	<resultMap type="donationDTO" id="rsMap">
