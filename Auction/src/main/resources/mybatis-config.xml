@@ -11,5 +11,6 @@
 	<mappers>
 		<mapper resource="mapper/testMapper.xml" />
 		<mapper resource="mapper/signUpMapper.xml" />
+		<mapper resource="mapper/AdminMemberMapper.xml" />
 	</mappers>
 </configuration>
